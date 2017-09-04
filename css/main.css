@@ -1,4 +1,5 @@
 html{
+    font-size: 10px;
     background: url("../images/background2.jpg") no-repeat center center fixed;
     background-size: cover;
 
@@ -8,4 +9,27 @@ body,html {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  height: 100%;
+}
+body{
+    height: 100%;
+}
+.keys{
+    height: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.key{
+    color: white;
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid white;
+
+
 }
