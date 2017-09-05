@@ -32,10 +32,18 @@ body{
     height: 8rem;
     border: 3px solid #3e2216;
     border-radius: 2px;
+    transform: all 0.7;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.playing{
+    box-shadow: 0 8px 16px 0 rgba(132, 13, 251, 0.2), 0 12px 40px 0 rgba(132, 13, 251, 0.19);
+    border: 3px solid rgb(132, 13, 251);
+    transform: scale(1.2);
+
 }
 
 kbd{
